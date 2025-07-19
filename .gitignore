@@ -2,9 +2,12 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-outputs/
 *.mp4
 *.avi
 *.pt
 .DS_Store
 .env 
+*.mp4
+*.avi
+!outputs/*.mp4
+!outputs/*.avi # Minor change for commit demo
