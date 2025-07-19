@@ -1,6 +1,6 @@
 # AI-based Parking Management System
 
-This project is an advanced, AI-powered parking management system that uses a custom-trained YOLO model to detect cars in parking slots from a top-down video feed. It provides real-time occupancy statistics and visualizes both detected vehicles and parking slot statuses on the video output.
+This project is an AI-powered parking management system that uses a custom-trained YOLO model to detect cars in parking slots from a top-down video feed. It provides real-time occupancy statistics and visualizes both detected vehicles and parking slot statuses on the video output.
 
 ## Features
 - Detects cars in parking slots using a custom YOLO model
@@ -37,6 +37,18 @@ This project is an advanced, AI-powered parking management system that uses a cu
    ```
 4. The output video with overlays will be saved to the specified output path.
 
+## Example Output
+
+Below is an example of the system's output:
+
+### Annotated Output Frame
+
+![Example Output Frame](outputs/image1.png)
+
+### Output Video
+
+[Download or view the output video (parking_output1.mp4)](outputs/parking_output1.mp4)
+
 ## Parking Slot JSON Format
 The JSON file should contain a list of slot definitions, each with a list of `points` (polygon coordinates):
 ```json
@@ -56,6 +68,4 @@ The JSON file should contain a list of slot definitions, each with a list of `po
 MIT License
 
 ## Acknowledgements
-- [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
-- OpenCV
-- NumPy 
+- [Ultralytics YOLO](https://github.com/ultralytics/ultralytics
