@@ -1,3 +1,3 @@
 opencv-python
 numpy
-ultralytics 
+ultralytics # Minor change for commit demo
