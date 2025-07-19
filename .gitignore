@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+outputs/
+*.mp4
+*.avi
+*.pt
+.DS_Store
+.env 
