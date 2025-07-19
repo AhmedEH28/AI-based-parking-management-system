@@ -68,4 +68,4 @@ The JSON file should contain a list of slot definitions, each with a list of `po
 MIT License
 
 ## Acknowledgements
-- [Ultralytics YOLO](https://github.com/ultralytics/ultralytics
+- [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
