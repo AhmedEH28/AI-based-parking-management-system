@@ -64,8 +64,5 @@ The JSON file should contain a list of slot definitions, each with a list of `po
 - Adjust the confidence threshold or overlap threshold in `run_parking.py` for your scenario.
 - The system is designed for top-down views and can be adapted for other perspectives with retraining.
 
-## License
-MIT License
-
 ## Acknowledgements
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
